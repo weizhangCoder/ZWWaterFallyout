@@ -52,7 +52,7 @@ extension ZWWaterfallLayout{
 
            let cellX : CGFloat = sectionInset.left + (cellW + minimumInteritemSpacing) * CGFloat(minIndex)
 
-            let cellY : CGFloat = minH + minimumLineSpacing
+            let cellY : CGFloat = minH;
             
             
             arr.frame = CGRect(x: cellX, y: cellY, width: cellW, height: cellH)
@@ -77,6 +77,6 @@ extension ZWWaterfallLayout{
 
 extension ZWWaterfallLayout{
     override var collectionViewContentSize: CGSize{
-        return CGSize(width: 0, height: totalHeights.max()! + sectionInset.bottom)
+        return CGSize(width: 0, height: totalHeights.max()! + sectionInset.bottom  - minimumLineSpacing)
     }
 }
