@@ -12,6 +12,7 @@
 		7232F7A01E03BFE90026EAA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7232F79E1E03BFE90026EAA0 /* Main.storyboard */; };
 		7232F7A21E03BFE90026EAA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7232F7A11E03BFE90026EAA0 /* Assets.xcassets */; };
 		7232F7A51E03BFE90026EAA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7232F7A31E03BFE90026EAA0 /* LaunchScreen.storyboard */; };
+		72CFD7681E07DE7D00BA3DA4 /* waterfall.gif in Resources */ = {isa = PBXBuildFile; fileRef = 72CFD7671E07DE7D00BA3DA4 /* waterfall.gif */; };
 		72EAB7DC1E03E514008B7240 /* ZWWaterfallLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EAB7DB1E03E514008B7240 /* ZWWaterfallLayout.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 		7232F7A11E03BFE90026EAA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7232F7A41E03BFE90026EAA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7232F7A61E03BFE90026EAA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72CFD7671E07DE7D00BA3DA4 /* waterfall.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = waterfall.gif; sourceTree = "<group>"; };
 		72EAB7DB1E03E514008B7240 /* ZWWaterfallLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZWWaterfallLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,6 +58,7 @@
 		7232F7991E03BFE90026EAA0 /* WaterfallLayout */ = {
 			isa = PBXGroup;
 			children = (
+				72CFD7661E07DE7D00BA3DA4 /* gif */,
 				7232F79A1E03BFE90026EAA0 /* AppDelegate.swift */,
 				7232F79C1E03BFE90026EAA0 /* ViewController.swift */,
 				72EAB7DB1E03E514008B7240 /* ZWWaterfallLayout.swift */,
@@ -65,6 +68,14 @@
 				7232F7A61E03BFE90026EAA0 /* Info.plist */,
 			);
 			path = WaterfallLayout;
+			sourceTree = "<group>";
+		};
+		72CFD7661E07DE7D00BA3DA4 /* gif */ = {
+			isa = PBXGroup;
+			children = (
+				72CFD7671E07DE7D00BA3DA4 /* waterfall.gif */,
+			);
+			path = gif;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +141,7 @@
 				7232F7A51E03BFE90026EAA0 /* LaunchScreen.storyboard in Resources */,
 				7232F7A21E03BFE90026EAA0 /* Assets.xcassets in Resources */,
 				7232F7A01E03BFE90026EAA0 /* Main.storyboard in Resources */,
+				72CFD7681E07DE7D00BA3DA4 /* waterfall.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
